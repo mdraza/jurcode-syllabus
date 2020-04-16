@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p, a, span, .btn {
+  font-family: 'Roboto', sans-serif;
+}
+
+.head-txt {
+  text-align: center;
+  color: #333333;
+  margin-top: 30px;
+}
+
+.head-txt h1 {
+  font-size: 40px;
+  margin: 10px 0 0;
+}
+
+.head-txt small {
+  font-size: 18px;
+}
+
+.courses {
+  margin-top: 40px;
+}
+
+.courses h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+.courses .lang {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: rgba(47, 85, 212, 0.9);
+  -webkit-box-shadow: 1px 1px 5px #f9f6f6;
+          box-shadow: 1px 1px 5px #f9f6f6;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 576px) {
+  .nav-item {
+    margin-bottom: 10px;
+  }
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  font-size: 18px;
+  border: 1px solid #4366d8;
+  color: #4366d8;
+  width: 250px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+  color: #333333;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.card .card-header {
+  background-color: #4366d8;
+}
+
+.card .card-header .card-link {
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.card .collapse .card-body h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #4366d8;
+  letter-spacing: 1px;
+}
+
+.card .collapse .card-body .p-points {
+  border-bottom: 1px solid rgba(158, 157, 157, 0.2);
+  padding: 10px;
+  letter-spacing: 0.5px;
+}
+
+.card .collapse .card-body .p-points .far {
+  font-size: 12px;
+  color: #4366d8;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+@media (max-width: 576px) {
+  .ml-25 {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

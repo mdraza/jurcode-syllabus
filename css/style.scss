@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1,h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+}
+p,a,span,.btn{
+    font-family: 'Roboto', sans-serif;
+}
+
+.head-txt {
+    text-align: center;
+    color: #333333;
+    margin-top: 30px;
+
+    h1 {
+        font-size: 40px;
+        margin: 10px 0 0;
+    }
+
+    small {
+        font-size: 18px;
+    }
+}
+
+.courses {
+    margin-top: 40px;
+
+    h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+        letter-spacing: 0.5px;
+    }
+
+    .lang {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 30px;
+    }
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: rgba(47, 85, 212, 0.9);
+    box-shadow: 1px 1px 5px rgb(249, 246, 246);
+    letter-spacing: 0.5px;
+}
+.nav-item{
+    @media (max-width:576px) {
+        margin-bottom: 10px;
+    }
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 18px;
+    border: 1px solid rgb(67, 102, 216);
+    color: #4366d8;
+    width: 250px;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+    &:hover {
+        color: #333333;
+    }
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.card {
+    margin-bottom: 10px;
+
+    .card-header {
+        background-color: rgb(67, 102, 216);
+
+        .card-link {
+            letter-spacing: 0.5px;
+            color: #fff;
+        }
+    }
+
+    .collapse {
+        .card-body {
+            h3 {
+                font-size: 20px;
+                text-align: center;
+                color: #4366d8;
+                letter-spacing: 1px;
+            }
+
+            .p-points {
+                border-bottom: 1px solid rgba(158, 157, 157, 0.2);
+                padding: 10px;
+                letter-spacing: 0.5px;
+
+                .far {
+                    font-size: 12px;
+                    color: rgb(67, 102, 216);
+                }
+            }
+        }
+    }
+}
+
+.ml-25 {
+    margin-left: 25px;
+    @media (max-width:576px) {
+        margin-left: 0;
+    }
+}
