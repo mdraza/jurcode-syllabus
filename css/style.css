@@ -97,6 +97,15 @@ span,
   color: #fff;
 }
 
+.card .card-header .card-link .fas {
+  font-size: 18px;
+}
+
+.card .card-header .card-link .rotate {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
 .card .card-header .card-link .project2 {
   float: right;
   color: white;

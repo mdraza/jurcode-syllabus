@@ -92,6 +92,12 @@ span,
         .card-link {
             letter-spacing: 0.5px;
             color: #fff;
+            .fas{
+                font-size: 18px;
+            }
+            .rotate{
+                transform: rotate(90deg);
+            }
             .project2{
                 float: right;
                 color: white;
