@@ -5,11 +5,17 @@ body {
           box-sizing: border-box;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Roboto', sans-serif;
 }
 
-p, a, span, .btn {
+p,
+a,
+span,
+.btn {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -89,6 +95,15 @@ p, a, span, .btn {
 .card .card-header .card-link {
   letter-spacing: 0.5px;
   color: #fff;
+}
+
+.card .card-header .card-link .project2 {
+  float: right;
+  color: white;
+  padding: 2px 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 13px;
 }
 
 .card .collapse .card-body h3 {
